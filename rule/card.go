@@ -7,7 +7,7 @@ import (
 	"github.com/go-playground/validator/v10"
 )
 
-// ValidateIranianCardNumber Luan algorithm for credit/card numbers
+// ValidateIranianCardNumber Luhn algorithm for credit/card numbers
 func ValidateIranianCardNumber(fl validator.FieldLevel) bool {
 	s := fl.Field().String()
 	if s == "" {

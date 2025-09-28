@@ -1,4 +1,4 @@
-package persianvalidation
+package irvalidate
 
 // Options allow package consumers to customize some behavior (future use).
 type Options struct {

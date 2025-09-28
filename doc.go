@@ -1,4 +1,4 @@
-// Package persianvalidation provides Iranian/Persian-specific validation rules
+// Package irvalidate provides Iranian/Persian-specific validation rules
 // that integrate with github.com/go-playground/validator/v10.
 //
 // The package exposes RegisterValidators(v *validator.Validate) to register
@@ -12,5 +12,5 @@
 // Example:
 //
 //	v := validator.New()
-//	persianvalidation.RegisterValidators(v)
-package persianvalidation
+//	irvalidate.RegisterValidators(v)
+package irvalidate

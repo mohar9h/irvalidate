@@ -1,4 +1,4 @@
-package persianvalidation
+package irvalidate
 
 import "fmt"
 

@@ -1,4 +1,4 @@
-package persianvalidation
+package irvalidate
 
 import (
 	"github.com/go-playground/validator/v10"
